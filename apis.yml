@@ -1,7 +1,29 @@
 aid: mixt
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mixt.png
 name: Mixt
-description: Mixt is a company surfaced as a portfolio company of obvious-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MIXT is a chef-driven fast-casual salad and grain-bowl restaurant chain
+  operating across the San Francisco Bay Area and Los Angeles. Founded on
+  sourcing fresh, local, seasonal, and organic ingredients, MIXT prepares its
+  greens, grains, grilled meats, dressings, and drinks in-house and offers
+  customizable salads (80+ ingredients), warm grain bowls, sandwiches, catering,
+  and a rewards loyalty program. MIXT is a Certified B Corporation (since 2018),
+  reflecting a commitment to sustainable sourcing and environmental
+  responsibility. It was surfaced as a portfolio company of Obvious Ventures and
+  added to the API Evangelist network. MIXT is a consumer restaurant brand and
+  does not publish a public developer platform, API, or SDKs; online ordering is
+  offered through a hosted ordering surface at order.mixt.com.
 url: https://raw.githubusercontent.com/api-evangelist/mixt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Restaurant
+- Food & Beverage
+- Salad
+- Catering
+- Sustainable Food
+- B Corporation
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,18 @@ maintainers:
 common:
 - type: Website
   url: https://mixt.com
+- type: Ordering
+  url: https://www.order.mixt.com/
+- type: Locations
+  url: https://www.mixt.com/locations/
+- type: Catering
+  url: https://www.mixt.com/catering/
+- type: SignUp
+  url: https://www.mixt.com/loyalty/
+- type: DomainSecurity
+  url: security/mixt-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
